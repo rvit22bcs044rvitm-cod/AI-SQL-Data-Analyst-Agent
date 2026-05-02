@@ -1,0 +1,13 @@
+import pandas as pd
+
+data = {
+    'Product': ['Laptop', 'Tablet', 'Monitor', 'Keyboard', 'Mouse', 'Smartphone', 'Headphones', 'Smartwatch'],
+    'Sales_Amount': [1200.50, 450.00, 300.75, 75.25, 25.00, 800.00, 150.00, 250.00],
+    'Region': ['North', 'South', 'East', 'West', 'North', 'South', 'East', 'West'],
+    'Date': ['2026-01-15', '2026-01-16', '2026-01-17', '2026-01-18', '2026-01-19', '2026-01-20', '2026-01-21', '2026-01-22'],
+    'Customer_Rating': [4.8, 4.2, 4.5, 3.9, 4.1, 4.7, 4.4, 4.3]
+}
+
+df = pd.DataFrame(data)
+df.to_csv('demo_data.csv', index=False)
+print("✅ demo_data.csv has been created successfully in your folder!")

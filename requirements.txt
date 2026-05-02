@@ -1,0 +1,8 @@
+streamlit
+pandas
+langchain-groq
+langchain-community
+langchain-classic
+matplotlib
+seaborn
+sqlalchemy
